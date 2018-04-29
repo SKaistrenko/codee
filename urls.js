@@ -1,0 +1,2 @@
+NYC_CRISIS_SHELTER="https://data.cityofnewyork.us/resource/cge5-k2m7.json?$select=program, location_1, number_and_street_address, postcode, latitude, longitude, contact_number&program='Crisis Shelter'";
+NYC_YOUTH_EMPLOYMENT="https://data.cityofnewyork.us/resource/btx2-u66x.json?$select=program, contact_number, grade_level_age_group, location_1, postcode, latitude, longitude&program=Summer Youth Employment";
