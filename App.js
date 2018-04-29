@@ -1,6 +1,6 @@
 import React from 'react';
 import Chat from './Chat';
-import Home from './Home';
+//import Home from './Home';
 
 import {
   Router,
@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <Router>
         <Scene key='root' style = {{paddingTop: Platform === 'ios' ? 64 : 54}}>
-          <Scene key = 'home' component={Home} title = 'Home'/>
+
           <Scene key = 'chat' component={Chat} title = 'Chat'/>
         </Scene>
       </Router>
